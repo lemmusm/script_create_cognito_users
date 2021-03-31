@@ -1,0 +1,3 @@
+idUsuario,nombre,puesto,pulsera,usuario,password,estatus,idRol,esLogueado,fechaHoraRegistro,esDisponible,correo
+1,Nombre completo,NombrePuesto,,nombreUsuario,TempPassword!,,1,,,,mail@domain.com
+2,Nombre completo,NombrePuesto,,nombreUsuario,TempPassword!,,2,,,,mail@domain.com
