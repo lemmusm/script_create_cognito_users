@@ -16,6 +16,10 @@
 
 6.- Enjoy! 
 
+### Important
+
+Remember edit your credentials (aws_access_key_id, aws_secret_access_key and region) in "C:\Users\{username}\.aws".
+
 ### Warning
 
 
