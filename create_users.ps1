@@ -15,4 +15,7 @@ foreach ($user in $users_list) {
 
     #Ejecuta el comando de aws para crear el usuario en cognito.
     aws cognito-idp admin-create-user --user-pool-id $poolId --username $usuario --temporary-password $password --user-attributes Name=name,Value=$nombre Name=email,Value=$correo Name=phone_number,Value="+521234567890" Name=email_verified,Value=True Name=phone_number_verified,Value=True Name=custom:idUsuario,Value=$idUsuario Name=custom:idRol,Value=$idRol --message-action SUPPRESS
+    
+    #Eliminar usuarios
+    #aws cognito-idp admin-delete-user --user-pool-id $poolId --username $usuario
 }
